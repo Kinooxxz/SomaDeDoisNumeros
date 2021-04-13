@@ -18,10 +18,7 @@ public class HoraInicialeFinal {
         } else{
             total = 24 - horaInicial + horaFinal;
         }
-
         System.out.println("o jogo durou "+total+" horas!");
-
-
         scanner.close();
     }
 }
