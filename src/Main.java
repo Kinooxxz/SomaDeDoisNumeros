@@ -3,12 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
-        /*
-        Faça um programa para ler dois valores inteiros, e
-        depois mostrar na tela a soma desses
-        números com uma mensagem explicativa, conforme exemplos.
-        * */
-
         // ler dois valores inteiros,
         // mostrar na tela a soma explicativa desses numeros
 
@@ -25,6 +19,8 @@ public class Main {
 
         System.out.println("ENTRADA : "+a+" + "+b);
         System.out.println("SAIDA : "+c);
+
+
 
 
 
