@@ -17,6 +17,7 @@ public class Pi {
             double areaCircular = pi * raio2;
 
             System.out.println("AREA DO CÍRCULO : "+ areaCircular);
+            scanner.close();
 
     }
 

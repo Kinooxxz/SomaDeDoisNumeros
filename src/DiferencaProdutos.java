@@ -27,5 +27,6 @@ public class DiferencaProdutos {
 
         int diferenca = ((a * b) - (c * d));
         System.out.println("diferenca : "+diferenca);
+        scanner.close();
     }
 }

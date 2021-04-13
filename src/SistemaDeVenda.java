@@ -63,11 +63,6 @@ public class SistemaDeVenda {
                 System.out.println("não temos esse produto em estoque!");
                 break;
         }
-
-
-
-
-
-
+        scanner.close();
     }
 }

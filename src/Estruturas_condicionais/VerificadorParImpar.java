@@ -13,5 +13,6 @@ public class VerificadorParImpar {
         } else{
             System.out.println("o numero é impar");
         }
+        scanner.close();
     }
 }

@@ -20,6 +20,8 @@ public class Main {
         System.out.println("ENTRADA : "+a+" + "+b);
         System.out.println("SAIDA : "+c);
 
+        scanner.close();
+
 
 
 

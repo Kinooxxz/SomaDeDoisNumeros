@@ -46,6 +46,6 @@ e) a área do retângulo que tem lados A e B.
 
         float areaRetangulo = (a*b);
         System.out.println("Area do retangulo : "+areaRetangulo);
-
+        scanner.close();
     }
 }

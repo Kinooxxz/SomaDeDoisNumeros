@@ -10,5 +10,7 @@ public class VerificadorNegativo {
 
         if (numero < 0) { System.out.println("o número é negativo");}
         else{   System.out.println("o numero é positivo");}
+
+        scanner.close();
     }
 }

@@ -25,6 +25,7 @@ public class HorasTrabalhadas {
         //considerando que mês = 30 dias.
         System.out.printf("FUNCIONÁRIO : %d%n",numeroFuncionario);
         System.out.printf("SALÁRIO : $ %.2f",salario);
+        scanner.close();
 
     }
 }
