@@ -23,9 +23,8 @@ public class HorasTrabalhadas {
 
         double salario = ((horasTrabalhadas*valorPorHora)*30);
         //considerando que mês = 30 dias.
-        System.out.println("O funcionário "+ numeroFuncionario +" ganha o salario de : "+ salario+" por mês.");
-
-
+        System.out.printf("FUNCIONÁRIO : %d%n",numeroFuncionario);
+        System.out.printf("SALÁRIO : $ %.2f",salario);
 
     }
 }
