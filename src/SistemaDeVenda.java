@@ -20,13 +20,17 @@ public class SistemaDeVenda {
         int escolha = scanner.nextInt();
 
         switch(escolha){
+
             case 1:
+
                 System.out.println("digite o número de vezes que deseja comprar");
                 numeroVezes = scanner.nextInt();
                 double preco = numeroVezes * valorProduto1;
+
                 System.out.println("preço a pagar : "+ preco);
                 System.out.println("deseja continuar com a compra?");
                 String escolhaSouN = scanner.next();
+
                 if(escolhaSouN.equalsIgnoreCase("sim")){
                     System.out.println("compra efetuada com sucesso!");
                 } else if(escolhaSouN.equalsIgnoreCase("nao")) {
@@ -35,13 +39,17 @@ public class SistemaDeVenda {
                     System.out.println("opção inválida, reiniciando compra...");
                 }
                 break;
+
             case 2:
+
                 System.out.println("digite o número de vezes que deseja comprar");
                 numeroVezes = scanner.nextInt();
                 double preco2 = numeroVezes * valorProduto2;
+
                 System.out.println("preço a pagar : "+ preco2);
                 System.out.println("deseja continuar com a compra? Sim/Nao");
                 String escolhaSouN2 = scanner.next();
+
                 if(escolhaSouN2.equalsIgnoreCase("sim")){
                     System.out.println("compra efetuada com sucesso!");
                 } else if(escolhaSouN2.equalsIgnoreCase("nao")) {
@@ -49,8 +57,8 @@ public class SistemaDeVenda {
                 } else{
                     System.out.println("opção inválida, reiniciando compra...");
                 }
-
                 break;
+
             default:
                 System.out.println("não temos esse produto em estoque!");
                 break;
