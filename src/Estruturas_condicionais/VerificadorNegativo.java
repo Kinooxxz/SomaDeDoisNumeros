@@ -7,10 +7,8 @@ public class VerificadorNegativo {
         Scanner scanner = new Scanner(System.in);
         System.out.println("digite um numero");
         int numero = scanner.nextInt();
-        if (numero > 0) {
-            System.out.println("o número é negativo");
-        } else{
-            System.out.println("o numero é positivo");
-        }
+
+        if (numero < 0) { System.out.println("o número é negativo");}
+        else{   System.out.println("o numero é positivo");}
     }
 }
