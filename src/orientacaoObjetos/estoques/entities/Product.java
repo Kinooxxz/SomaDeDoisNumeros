@@ -17,4 +17,8 @@ public class Product {
         this.quantity -= quantity;
     }
 
+    public String toString(){
+        return name;
+    }
+
 }

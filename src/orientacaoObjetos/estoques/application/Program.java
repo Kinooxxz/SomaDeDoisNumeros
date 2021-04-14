@@ -18,9 +18,11 @@ public class Program {
         System.out.print("Enter product quantity : ");
         product.quantity = scanner.nextInt();
 
+
         System.out.println("product name : "+product.name);
         System.out.println("product price : "+product.price);
         System.out.println("total values in stock : "+product.totalValueInStock());
+        System.out.println("");
 
 
         scanner.close();
