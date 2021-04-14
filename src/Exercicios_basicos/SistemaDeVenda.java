@@ -1,3 +1,5 @@
+package Exercicios_basicos;
+
 import java.util.Scanner;
 
 public class SistemaDeVenda {
