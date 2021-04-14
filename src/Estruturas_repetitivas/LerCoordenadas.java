@@ -1,6 +1,5 @@
 package Estruturas_repetitivas;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class LerCoordenadas {
