@@ -32,12 +32,12 @@ public class Funcionario {
 
         System.out.println("Employee : " + name + ", $ "+grossSalary);
 
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("==========================");
         System.out.println("Name : "+ name);
         System.out.println("Gross Salary : "+ grossSalary);
         System.out.println("Tax : "+ tax);
         System.out.println("==========================");
-        System.out.println("");
+        System.out.println(" ");
     }
 }
