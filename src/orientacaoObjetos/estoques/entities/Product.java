@@ -7,6 +7,7 @@ public class Product {
     private int quantity;
 
     //construtor padrão, aula de sobrecarga
+
     public Product(){
 
     }
@@ -21,8 +22,6 @@ public class Product {
         this.name = name;
         this.price = price;
     }
-
-
 
     /////////////////////////////
 
