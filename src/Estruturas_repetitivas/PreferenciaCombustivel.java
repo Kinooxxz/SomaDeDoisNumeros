@@ -24,9 +24,6 @@ public class PreferenciaCombustivel {
                 case 3:
                     System.out.printf("%nDíesel%n%n");
                     break;
-                case 4:
-                    System.out.printf("%nMuito Obrigado!%n%n");
-                    break;
                 default:
                     System.out.printf("%nOpção inválida.%n%n");
                     break;
