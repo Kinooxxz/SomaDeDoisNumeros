@@ -7,7 +7,7 @@ public class Intervalo {
         Scanner scanner = new Scanner(System.in);
         System.out.print("digite quantos números serão lidos : ");
         int x = scanner.nextInt();
-        int totalIn = 0, totalOut = 0, number = 0;;
+        int totalIn = 0, totalOut = 0, number;
 
         for(int i = 0; i < x ; i++){
             System.out.println("digite o numero [" + (i+1) + "]");
