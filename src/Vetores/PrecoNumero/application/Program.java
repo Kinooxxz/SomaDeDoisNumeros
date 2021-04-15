@@ -13,7 +13,7 @@ public class Program {
 
         Product[] products = new Product[n];
 
-        for(int i = 0; i < n ; i++){
+        for(int i = 0; i < products.length ; i++){
             scanner.nextLine();
             String name = scanner.nextLine();
             double price = scanner.nextDouble();
@@ -21,11 +21,11 @@ public class Program {
         }
 
         double sum = 0.0;
-        for(int i = 0; i < n; i++){
-            sum += products[i].getPrice();
+        for (Product product : products) {
+            sum += product.getPrice();
         }
 
-        double media = sum / n;
+        double media = sum / products.length;
         System.out.println("media : " + media);
         scanner.close();
     }
