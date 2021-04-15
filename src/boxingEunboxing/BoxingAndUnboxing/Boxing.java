@@ -1,0 +1,16 @@
+package boxingEunboxing.BoxingAndUnboxing;
+
+public class Boxing {
+    public static void main(String[] args) {
+        //exemplo de Casting sem Wrappers
+        int x = 20;
+
+        Object obj = x;
+
+        System.out.println(obj);
+
+        int y = (int) obj;
+
+        System.out.println(y);
+    }
+}
