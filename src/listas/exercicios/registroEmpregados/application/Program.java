@@ -3,10 +3,8 @@ package listas.exercicios.registroEmpregados.application;
 import listas.exercicios.registroEmpregados.entities.Employee;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collector;
 
 public class Program {
 
@@ -39,17 +37,24 @@ public class Program {
         System.out.println("Digite a id do empregado que você quer que o salário seja incrementado : ");
         Integer resposta = scanner.nextInt();
         Employee resultado = employee.stream().filter(x -> x.getId().equals(resposta)).findFirst().orElse(null);
-        resultado.toString();
+        if(resultado == null){
+            System.out.println("Este funcionário não existe");
 
-        System.out.println("digite a porcentagem : ");
-        double porcentagem = scanner.nextDouble();
-        resultado.increaseSalary(porcentagem);
+        } else if(resultado.getId().toString().equals(resposta.toString())){
+            System.out.println("Funcionario encontrado! : "+resultado.getName());
 
-        System.out.println("Lista de empregados: ");
-        for(int i = 0 ; i < n ; i++){
-            System.out.println(employee.toString());
+            System.out.println("digite a porcentagem : ");
+            double porcentagem = scanner.nextDouble();
+            resultado.increaseSalary(porcentagem);
+
+            System.out.println("Lista de empregados: ");
+            for(Employee list : employee){
+                System.out.println(list);
+            }
+            scanner.close();
         }
 
-        scanner.close();
+
+
     }
 }
