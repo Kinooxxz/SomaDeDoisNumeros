@@ -1,4 +1,4 @@
-package heranca.tarefa1.modules.entities;
+package polimorfismo.tarefa1.modules.entities;
 
 public final class SavingsAcount extends Account {
     private Double interestRate;

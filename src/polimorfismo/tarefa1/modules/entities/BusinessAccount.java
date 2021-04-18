@@ -1,6 +1,6 @@
-package heranca.tarefa1.modules.entities;
+package polimorfismo.tarefa1.modules.entities;
 
-public final class BusinessAccount extends Account{
+public final class BusinessAccount extends Account {
     private Double loanLimit;
 
     public BusinessAccount(){
